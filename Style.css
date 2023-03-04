@@ -36,14 +36,14 @@ header{
     transition: all .45s ease;
 }
 .hanuman img{
-    width:  200px;
+    width:  100px;
     height: auto;
 }
 .logo{
     color: var(--text-color);
-    font-size: 55px;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 10px;
 }
 span{
     color: var(--Main-color)
@@ -295,7 +295,7 @@ Header.sticky{
 .layer{
     width: 100%;
     height: 0%;
-    background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.1), #95d5b2);
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -310,12 +310,13 @@ Header.sticky{
     transition: height 0.5s;
 }
 .layer h5{
+    color: #ff4d05;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 .layer p{
-    color: var(--second-color);
+    color: #ffffff;
     font-size: 1rem;
     line-height: 1.8;
 }
